@@ -1,4 +1,4 @@
-package com.me.retrofit_okhttp_compose
+package com.me.retrofit_okhttp_compose.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -19,7 +19,9 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.me.retrofit_okhttp_compose.ui.theme.RetrofitokhttpcomposeTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 @ExperimentalMaterial3Api
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
