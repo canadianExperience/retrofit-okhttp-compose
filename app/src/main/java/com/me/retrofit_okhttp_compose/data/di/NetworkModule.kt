@@ -1,6 +1,6 @@
-package com.me.retrofit_okhttp_compose.di
+package com.me.retrofit_okhttp_compose.data.di
 
-import com.me.retrofit_okhttp_compose.apimanager.TodoApi
+import com.me.retrofit_okhttp_compose.data.apimanager.TodoApi
 import com.me.retrofit_okhttp_compose.utils.Constants.Companion.BASE_URL
 import dagger.Module
 import dagger.Provides

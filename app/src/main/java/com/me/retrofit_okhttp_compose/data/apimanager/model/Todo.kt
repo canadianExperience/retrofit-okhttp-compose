@@ -1,4 +1,4 @@
-package com.me.retrofit_okhttp_compose.apimanager.model
+package com.me.retrofit_okhttp_compose.data.apimanager.model
 data class Todo(
     val completed: Boolean,
     val id: Int,

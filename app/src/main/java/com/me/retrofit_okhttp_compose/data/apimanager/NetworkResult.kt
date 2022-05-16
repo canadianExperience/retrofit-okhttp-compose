@@ -1,4 +1,4 @@
-package com.me.retrofit_okhttp_compose.apimanager
+package com.me.retrofit_okhttp_compose.data.apimanager
 
 sealed class NetworkResult<T>(
     val data: T? = null,
