@@ -52,31 +52,17 @@ class MainActivity : ComponentActivity() {
 @Composable
 private fun AppBody(todos: List<Todo>){
 
-    val names = todos.map {
-        it.title
-    }
-
-
     Column(
         modifier = Modifier.padding(8.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        MyTitle(title = "Retrofit Call")
+        Text(
+            fontWeight = FontWeight.Bold,
+            text = "Retrofit Call",
+            modifier = Modifier.padding(all = 8.dp)
+        )
         MyList(todos)
-
-//        MyTitle(title = "Okhttp Call")
-//        MyList(names = names)
     }
-}
-
-@ExperimentalMaterial3Api
-@Composable
-private fun MyTitle(title: String){
-    Text(
-        fontWeight = FontWeight.Bold,
-        text = title,
-        modifier = Modifier.padding(all = 8.dp)
-    )
 }
 
 @ExperimentalMaterial3Api
@@ -135,7 +121,7 @@ private fun TodoItem(title: String, completed: Boolean){
 @Composable
 fun DefaultPreview() {
     RetrofitokhttpcomposeTheme {
-        AppBody(listOf<Todo>())
+        AppBody(listOf())
     }
 }
 
