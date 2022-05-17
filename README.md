@@ -1,8 +1,8 @@
-# Retrofit API call
+# Retrofit API Call
 
 Testing API: "https://jsonplaceholder.typicode.com"
 
-- Jatpack Compose
+- Jetpack Compose
 - MVVM 
 - Hilt 
 - Retrofit 
