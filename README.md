@@ -4,6 +4,7 @@ Testing API: "https://jsonplaceholder.typicode.com"
 
 - Jetpack Compose
 - MVVM 
+- Flow
 - Hilt 
 - Retrofit 
 - Okhttp timeout set
