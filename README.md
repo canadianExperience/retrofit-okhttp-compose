@@ -7,7 +7,7 @@ Testing API: "https://jsonplaceholder.typicode.com"
 - Flow
 - Hilt 
 - Retrofit 
-- Okhttp timeout set
+- Okhttp (timeout, interceptors)
 
 ## Author
 - [@elenamelnikova](https://github.com/canadianExperience)
